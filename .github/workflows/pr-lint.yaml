@@ -1,0 +1,15 @@
+name: "Lint"
+on: "push"
+
+jobs:
+  lint:
+    name: "PR Lint"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: dominikh/staticcheck-action@v1.4.0
+        with:
+          version: "latest"
+
