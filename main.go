@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-
+	startServer()
 }
 
 func startServer() {
