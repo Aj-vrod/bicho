@@ -32,4 +32,7 @@ go.work.sum
 # .vscode/
 
 # Copilot
-./github/copilot-instructions.md
+.github/copilot-instructions.md
+
+# Local images
+out
