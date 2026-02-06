@@ -25,6 +25,9 @@ func NewApiCmd(version string) *cobra.Command {
 
 func startServer() {
 	cfg, err := config.LoadFromEnv()
+	if err != nil {
+		log.Fatal(err)
+	}
 	fmt.Printf("Server listening in port %v...\n", cfg.HTTPPort)
 
 	r := chi.NewRouter()
