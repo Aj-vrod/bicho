@@ -1,25 +1,14 @@
 package main
 
 import (
-	"net/http"
-
-	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	"Aj-vrod/bicho/cmd"
 )
 
+var version = "dev-0.0.0"
+
 func main() {
-	startServer()
-}
-
-func startServer() {
-	r := chi.NewRouter()
-	r.Use(middleware.Logger)
-
-	r.Get("/", rootHandler)
-
-	http.ListenAndServe(":3000", r)
-}
-
-func rootHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("welcome"))
+	rootCmd := cmd.NewRootCmd(version)
+	if err := rootCmd.Execute(); err != nil {
+		panic(err)
+	}
 }
