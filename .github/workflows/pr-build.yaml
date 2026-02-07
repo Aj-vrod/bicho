@@ -17,5 +17,5 @@ jobs:
         with:
           go-version-file: 'go.mod'
       
-      - name: "Build Docker image"
-        run: docker build .
+      - name: "Build image"
+        run: make build
