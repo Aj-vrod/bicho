@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - master
-  # remove once successful
-  pull_request:
-    
+
 jobs:
   release:
     runs-on: ubuntu-latest
