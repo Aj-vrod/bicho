@@ -1,13 +1,15 @@
-FROM --platform=arm64 golang:alpine3.23
+# --- Builder
+FROM golang:1.24 AS builder
 
 WORKDIR /
 
-COPY / /
+COPY . .
+RUN make build
+# --- End of Builder
 
-RUN go build
+FROM ubuntu:24.04
+COPY --from=builder out/bicho /bin/bicho
 
-RUN chmod +x ./bicho
+RUN chmod a+x bin/bicho
 
-CMD ["./bicho", "api"]
-
-EXPOSE 8080
+ENTRYPOINT [ "bin/bicho", "api" ]

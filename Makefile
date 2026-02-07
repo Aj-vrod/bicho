@@ -18,7 +18,7 @@ all: build
 build:
 	@mkdir -p ${OUT_DIR}
 	@echo "Building $(BINARY_NAME)..."
-	$(GO_BUILD) -o ${OUT_DIR}/${BINARY} main.go
+	$(GO_BUILD) -o ${OUT_DIR}/${BINARY_NAME} main.go
 	@echo "Build complete!"
 
 # Run the application
