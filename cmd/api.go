@@ -69,6 +69,10 @@ func OrganizationHandler(w http.ResponseWriter, _ *http.Request) {
 
 	// Parse data into tree structure
 	treeOrg, err := organization.ProcessOrgData(org)
+	if err != nil {
+		log.Fatal(err)
+		w.WriteHeader(http.StatusInternalServerError)
+	}
 	data, err := json.Marshal(treeOrg)
 	if err != nil {
 		log.Fatal(err)

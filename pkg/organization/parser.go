@@ -42,6 +42,11 @@ func buildOrgByName(employees []Employee) Organization {
 	org := Organization{}
 
 	for _, e := range employees {
+		if !validateEmployee(e) {
+			// skip invalid employee
+			continue
+		}
+
 		batallionIdx := slices.IndexFunc(org.Batallions, func(b Batallion) bool { return b.Name == e.Battalion })
 		if batallionIdx == -1 {
 			org.Batallions = append(org.Batallions, Batallion{
