@@ -5,9 +5,9 @@
     "job_family": "Engineering",
     "job_title": "Senior Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Alpha Squad",
-    "platoons": "Engineering Platoon 1",
-    "battalions": "Technology Battalion",
+    "squad": "Alpha Squad",
+    "platoon": "Engineering Platoon 1",
+    "battalion": "Technology Battalion",
     "start_date": "2018-03-15"
   },
   {
@@ -16,9 +16,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Alpha Squad",
-    "platoons": "Engineering Platoon 1",
-    "battalions": "Technology Battalion",
+    "squad": "Alpha Squad",
+    "platoon": "Engineering Platoon 1",
+    "battalion": "Technology Battalion",
     "start_date": "2020-07-22"
   },
   {
@@ -27,9 +27,9 @@
     "job_family": "Engineering",
     "job_title": "DevOps Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Beta Squad",
-    "platoons": "Engineering Platoon 1",
-    "battalions": "Technology Battalion",
+    "squad": "Beta Squad",
+    "platoon": "Engineering Platoon 1",
+    "battalion": "Technology Battalion",
     "start_date": "2019-11-08"
   },
   {
@@ -38,9 +38,9 @@
     "job_family": "Engineering",
     "job_title": "Staff Engineer",
     "business_unit": "Product Development",
-    "squads": "Gamma Squad",
-    "platoons": "Engineering Platoon 2",
-    "battalions": "Technology Battalion",
+    "squad": "Gamma Squad",
+    "platoon": "Engineering Platoon 2",
+    "battalion": "Technology Battalion",
     "start_date": "2017-05-12"
   },
   {
@@ -49,9 +49,9 @@
     "job_family": "Product",
     "job_title": "Product Manager",
     "business_unit": "Product Development",
-    "squads": "Alpha Squad",
-    "platoons": "Product Platoon 1",
-    "battalions": "Product Battalion",
+    "squad": "Alpha Squad",
+    "platoon": "Product Platoon 1",
+    "battalion": "Product Battalion",
     "start_date": "2019-02-18"
   },
   {
@@ -60,9 +60,9 @@
     "job_family": "Design",
     "job_title": "UX Designer",
     "business_unit": "Product Development",
-    "squads": "Alpha Squad",
-    "platoons": "Product Platoon 1",
-    "battalions": "Product Battalion",
+    "squad": "Alpha Squad",
+    "platoon": "Product Platoon 1",
+    "battalion": "Product Battalion",
     "start_date": "2020-09-05"
   },
   {
@@ -71,9 +71,9 @@
     "job_family": "Engineering",
     "job_title": "Frontend Engineer",
     "business_unit": "Product Development",
-    "squads": "Delta Squad",
-    "platoons": "Engineering Platoon 2",
-    "battalions": "Technology Battalion",
+    "squad": "Delta Squad",
+    "platoon": "Engineering Platoon 2",
+    "battalion": "Technology Battalion",
     "start_date": "2021-01-14"
   },
   {
@@ -82,9 +82,9 @@
     "job_family": "Engineering",
     "job_title": "Backend Engineer",
     "business_unit": "Product Development",
-    "squads": "Epsilon Squad",
-    "platoons": "Engineering Platoon 3",
-    "battalions": "Technology Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Engineering Platoon 3",
+    "battalion": "Technology Battalion",
     "start_date": "2018-08-30"
   },
   {
@@ -93,9 +93,9 @@
     "job_family": "Data",
     "job_title": "Data Scientist",
     "business_unit": "Analytics",
-    "squads": "Analytics Squad",
-    "platoons": "Data Platoon 1",
-    "battalions": "Data Battalion",
+    "squad": "Analytics Squad",
+    "platoon": "Data Platoon 1",
+    "battalion": "Data Battalion",
     "start_date": "2019-06-21"
   },
   {
@@ -104,9 +104,9 @@
     "job_family": "Engineering",
     "job_title": "Principal Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Platform Squad",
-    "platoons": "Engineering Platoon 3",
-    "battalions": "Technology Battalion",
+    "squad": "Platform Squad",
+    "platoon": "Engineering Platoon 3",
+    "battalion": "Technology Battalion",
     "start_date": "2016-04-07"
   },
   {
@@ -115,9 +115,9 @@
     "job_family": "Product",
     "job_title": "Senior Product Manager",
     "business_unit": "Product Development",
-    "squads": "Beta Squad",
-    "platoons": "Product Platoon 1",
-    "battalions": "Product Battalion",
+    "squad": "Beta Squad",
+    "platoon": "Product Platoon 1",
+    "battalion": "Product Battalion",
     "start_date": "2017-10-19"
   },
   {
@@ -126,9 +126,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Zeta Squad",
-    "platoons": "Engineering Platoon 4",
-    "battalions": "Technology Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Engineering Platoon 4",
+    "battalion": "Technology Battalion",
     "start_date": "2021-03-28"
   },
   {
@@ -137,9 +137,9 @@
     "job_family": "Data",
     "job_title": "Data Engineer",
     "business_unit": "Analytics",
-    "squads": "Analytics Squad",
-    "platoons": "Data Platoon 1",
-    "battalions": "Data Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Data Platoon 1",
+    "battalion": "Data Battalion",
     "start_date": "2020-05-16"
   },
   {
@@ -148,9 +148,9 @@
     "job_family": "Engineering",
     "job_title": "Machine Learning Engineer",
     "business_unit": "AI Research",
-    "squads": "ML Squad",
-    "platoons": "Data Platoon 2",
-    "battalions": "Data Battalion",
+    "squad": "ML Squad",
+    "platoon": "Data Platoon 2",
+    "battalion": "Data Battalion",
     "start_date": "2019-09-03"
   },
   {
@@ -159,9 +159,9 @@
     "job_family": "Design",
     "job_title": "Senior UX Designer",
     "business_unit": "Product Development",
-    "squads": "Gamma Squad",
-    "platoons": "Product Platoon 1",
-    "battalions": "Product Battalion",
+    "squad": "Gamma Squad",
+    "platoon": "Product Platoon 1",
+    "battalion": "Product Battalion",
     "start_date": "2018-12-11"
   },
   {
@@ -170,9 +170,9 @@
     "job_family": "Engineering",
     "job_title": "Security Engineer",
     "business_unit": "Security",
-    "squads": "Security Squad",
-    "platoons": "Engineering Platoon 5",
-    "battalions": "Technology Battalion",
+    "squad": "Security Squad",
+    "platoon": "Engineering Platoon 5",
+    "battalion": "Technology Battalion",
     "start_date": "2020-02-25"
   },
   {
@@ -181,9 +181,9 @@
     "job_family": "Product",
     "job_title": "Product Designer",
     "business_unit": "Product Development",
-    "squads": "Delta Squad",
-    "platoons": "Product Platoon 2",
-    "battalions": "Product Battalion",
+    "squad": "Delta Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2021-07-09"
   },
   {
@@ -192,9 +192,9 @@
     "job_family": "Engineering",
     "job_title": "Cloud Architect",
     "business_unit": "Infrastructure",
-    "squads": "Platform Squad",
-    "platoons": "Engineering Platoon 5",
-    "battalions": "Technology Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Engineering Platoon 5",
+    "battalion": "Technology Battalion",
     "start_date": "2017-01-20"
   },
   {
@@ -203,9 +203,9 @@
     "job_family": "Data",
     "job_title": "Business Intelligence Analyst",
     "business_unit": "Analytics",
-    "squads": "BI Squad",
-    "platoons": "Data Platoon 1",
-    "battalions": "Data Battalion",
+    "squad": "BI Squad",
+    "platoon": "Data Platoon 1",
+    "battalion": "Data Battalion",
     "start_date": "2019-04-14"
   },
   {
@@ -214,9 +214,9 @@
     "job_family": "Engineering",
     "job_title": "QA Engineer",
     "business_unit": "Quality Assurance",
-    "squads": "QA Squad",
-    "platoons": "Engineering Platoon 6",
-    "battalions": "Technology Battalion",
+    "squad": "QA Squad",
+    "platoon": "Engineering Platoon 6",
+    "battalion": "Technology Battalion",
     "start_date": "2020-11-27"
   },
   {
@@ -225,9 +225,9 @@
     "job_family": "Marketing",
     "job_title": "Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Marketing Squad",
-    "platoons": "Growth Platoon 1",
-    "battalions": "Business Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Growth Platoon 1",
+    "battalion": "Business Battalion",
     "start_date": "2018-06-05"
   },
   {
@@ -236,9 +236,9 @@
     "job_family": "Engineering",
     "job_title": "Mobile Engineer",
     "business_unit": "Mobile",
-    "squads": "Mobile Squad",
-    "platoons": "Engineering Platoon 7",
-    "battalions": "Technology Battalion",
+    "squad": "Mobile Squad",
+    "platoon": "Engineering Platoon 7",
+    "battalion": "Technology Battalion",
     "start_date": "2019-08-17"
   },
   {
@@ -247,9 +247,9 @@
     "job_family": "Product",
     "job_title": "Associate Product Manager",
     "business_unit": "Product Development",
-    "squads": "Epsilon Squad",
-    "platoons": "Product Platoon 2",
-    "battalions": "Product Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2021-12-02"
   },
   {
@@ -258,9 +258,9 @@
     "job_family": "Engineering",
     "job_title": "Full Stack Engineer",
     "business_unit": "Product Development",
-    "squads": "Theta Squad",
-    "platoons": "Engineering Platoon 8",
-    "battalions": "Technology Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Engineering Platoon 8",
+    "battalion": "Technology Battalion",
     "start_date": "2020-04-23"
   },
   {
@@ -269,9 +269,9 @@
     "job_family": "Sales",
     "job_title": "Sales Manager",
     "business_unit": "Sales",
-    "squads": "Enterprise Sales Squad",
-    "platoons": "Sales Platoon 1",
-    "battalions": "Business Battalion",
+    "squad": "Enterprise Sales Squad",
+    "platoon": "Sales Platoon 1",
+    "battalion": "Business Battalion",
     "start_date": "2017-07-31"
   },
   {
@@ -280,9 +280,9 @@
     "job_family": "Engineering",
     "job_title": "Site Reliability Engineer",
     "business_unit": "Infrastructure",
-    "squads": "SRE Squad",
-    "platoons": "Engineering Platoon 9",
-    "battalions": "Technology Battalion",
+    "squad": "SRE Squad",
+    "platoon": "Engineering Platoon 9",
+    "battalion": "Technology Battalion",
     "start_date": "2018-09-26"
   },
   {
@@ -291,9 +291,9 @@
     "job_family": "HR",
     "job_title": "HR Manager",
     "business_unit": "People Operations",
-    "squads": "Talent Squad",
-    "platoons": "HR Platoon 1",
-    "battalions": "Operations Battalion",
+    "squad": "Talent Squad",
+    "platoon": "HR Platoon 1",
+    "battalion": "Operations Battalion",
     "start_date": "2019-03-10"
   },
   {
@@ -302,9 +302,9 @@
     "job_family": "Finance",
     "job_title": "Financial Analyst",
     "business_unit": "Finance",
-    "squads": "Finance Squad",
-    "platoons": "Finance Platoon 1",
-    "battalions": "Operations Battalion",
+    "squad": "Finance Squad",
+    "platoon": "Finance Platoon 1",
+    "battalion": "Operations Battalion",
     "start_date": "2020-01-08"
   },
   {
@@ -313,9 +313,9 @@
     "job_family": "Design",
     "job_title": "UI Designer",
     "business_unit": "Product Development",
-    "squads": "Zeta Squad",
-    "platoons": "Product Platoon 3",
-    "battalions": "Product Battalion",
+    "squad": "Zeta Squad",
+    "platoon": "Product Platoon 3",
+    "battalion": "Product Battalion",
     "start_date": "2021-05-19"
   },
   {
@@ -324,9 +324,9 @@
     "job_family": "Engineering",
     "job_title": "Database Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Data Infrastructure Squad",
-    "platoons": "Engineering Platoon 10",
-    "battalions": "Technology Battalion",
+    "squad": "Data Infrastructure Squad",
+    "platoon": "Engineering Platoon 10",
+    "battalion": "Technology Battalion",
     "start_date": "2018-02-14"
   },
   {
@@ -335,9 +335,9 @@
     "job_family": "Legal",
     "job_title": "Legal Counsel",
     "business_unit": "Legal",
-    "squads": "Legal Squad",
-    "platoons": "Legal Platoon 1",
-    "battalions": "Operations Battalion",
+    "squad": "Legal Squad",
+    "platoon": "Legal Platoon 1",
+    "battalion": "Operations Battalion",
     "start_date": "2019-10-29"
   },
   {
@@ -346,9 +346,9 @@
     "job_family": "Customer Success",
     "job_title": "Customer Success Manager",
     "business_unit": "Customer Success",
-    "squads": "CS Squad",
-    "platoons": "Customer Platoon 1",
-    "battalions": "Business Battalion",
+    "squad": "CS Squad",
+    "platoon": "Customer Platoon 1",
+    "battalion": "Business Battalion",
     "start_date": "2020-08-11"
   },
   {
@@ -357,9 +357,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Iota Squad",
-    "platoons": "Engineering Platoon 11",
-    "battalions": "Technology Battalion",
+    "squad": "Iota Squad",
+    "platoon": "Engineering Platoon 11",
+    "battalion": "Technology Battalion",
     "start_date": "2021-02-06"
   },
   {
@@ -368,9 +368,9 @@
     "job_family": "Data",
     "job_title": "Data Analyst",
     "business_unit": "Analytics",
-    "squads": "BI Squad",
-    "platoons": "Data Platoon 3",
-    "battalions": "Data Battalion",
+    "squad": "BI Squad",
+    "platoon": "Data Platoon 3",
+    "battalion": "Data Battalion",
     "start_date": "2019-12-18"
   },
   {
@@ -379,9 +379,9 @@
     "job_family": "Marketing",
     "job_title": "Content Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Content Squad",
-    "platoons": "Growth Platoon 2",
-    "battalions": "Business Battalion",
+    "squad": "Content Squad",
+    "platoon": "Growth Platoon 2",
+    "battalion": "Business Battalion",
     "start_date": "2018-11-03"
   },
   {
@@ -390,9 +390,9 @@
     "job_family": "Engineering",
     "job_title": "DevOps Engineer",
     "business_unit": "Infrastructure",
-    "squads": "DevOps Squad",
-    "platoons": "Engineering Platoon 12",
-    "battalions": "Technology Battalion",
+    "squad": "DevOps Squad",
+    "platoon": "Engineering Platoon 12",
+    "battalion": "Technology Battalion",
     "start_date": "2020-06-21"
   },
   {
@@ -401,9 +401,9 @@
     "job_family": "Product",
     "job_title": "Technical Product Manager",
     "business_unit": "Product Development",
-    "squads": "Platform Squad",
-    "platoons": "Product Platoon 3",
-    "battalions": "Product Battalion",
+    "squad": "Platform Squad",
+    "platoon": "Product Platoon 3",
+    "battalion": "Product Battalion",
     "start_date": "2017-09-15"
   },
   {
@@ -412,9 +412,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Kappa Squad",
-    "platoons": "Engineering Platoon 13",
-    "battalions": "Technology Battalion",
+    "squad": "Kappa Squad",
+    "platoon": "Engineering Platoon 13",
+    "battalion": "Technology Battalion",
     "start_date": "2021-04-08"
   },
   {
@@ -423,9 +423,9 @@
     "job_family": "Design",
     "job_title": "Product Designer",
     "business_unit": "Product Development",
-    "squads": "Mobile Squad",
-    "platoons": "Product Platoon 4",
-    "battalions": "Product Battalion",
+    "squad": "Mobile Squad",
+    "platoon": "Product Platoon 4",
+    "battalion": "Product Battalion",
     "start_date": "2019-07-24"
   },
   {
@@ -434,9 +434,9 @@
     "job_family": "Sales",
     "job_title": "Account Executive",
     "business_unit": "Sales",
-    "squads": "SMB Sales Squad",
-    "platoons": "Sales Platoon 2",
-    "battalions": "Business Battalion",
+    "squad": "SMB Sales Squad",
+    "platoon": "Sales Platoon 2",
+    "battalion": "Business Battalion",
     "start_date": "2020-10-16"
   },
   {
@@ -445,9 +445,9 @@
     "job_family": "Engineering",
     "job_title": "AI Engineer",
     "business_unit": "AI Research",
-    "squads": "AI Squad",
-    "platoons": "Data Platoon 4",
-    "battalions": "Data Battalion",
+    "squad": "AI Squad",
+    "platoon": "Data Platoon 4",
+    "battalion": "Data Battalion",
     "start_date": "2018-05-02"
   },
   {
@@ -456,9 +456,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Lambda Squad",
-    "platoons": "Engineering Platoon 14",
-    "battalions": "Technology Battalion",
+    "squad": "Lambda Squad",
+    "platoon": "Engineering Platoon 14",
+    "battalion": "Technology Battalion",
     "start_date": "2021-09-13"
   },
   {
@@ -467,9 +467,9 @@
     "job_family": "HR",
     "job_title": "Recruiter",
     "business_unit": "People Operations",
-    "squads": "Talent Squad",
-    "platoons": "HR Platoon 2",
-    "battalions": "Operations Battalion",
+    "squad": "Talent Squad",
+    "platoon": "HR Platoon 2",
+    "battalion": "Operations Battalion",
     "start_date": "2019-01-29"
   },
   {
@@ -478,9 +478,9 @@
     "job_family": "Engineering",
     "job_title": "Backend Engineer",
     "business_unit": "Product Development",
-    "squads": "Mu Squad",
-    "platoons": "Engineering Platoon 15",
-    "battalions": "Technology Battalion",
+    "squad": "Mu Squad",
+    "platoon": "Engineering Platoon 15",
+    "battalion": "Technology Battalion",
     "start_date": "2020-03-17"
   },
   {
@@ -489,9 +489,9 @@
     "job_family": "Finance",
     "job_title": "Senior Financial Analyst",
     "business_unit": "Finance",
-    "squads": "Finance Squad",
-    "platoons": "Finance Platoon 2",
-    "battalions": "Operations Battalion",
+    "squad": "Finance Squad",
+    "platoon": "Finance Platoon 2",
+    "battalion": "Operations Battalion",
     "start_date": "2017-12-06"
   },
   {
@@ -500,9 +500,9 @@
     "job_family": "Engineering",
     "job_title": "Frontend Engineer",
     "business_unit": "Product Development",
-    "squads": "Nu Squad",
-    "platoons": "Engineering Platoon 16",
-    "battalions": "Technology Battalion",
+    "squad": "Nu Squad",
+    "platoon": "Engineering Platoon 16",
+    "battalion": "Technology Battalion",
     "start_date": "2019-05-22"
   },
   {
@@ -511,9 +511,9 @@
     "job_family": "Marketing",
     "job_title": "Growth Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Growth Squad",
-    "platoons": "Growth Platoon 3",
-    "battalions": "Business Battalion",
+    "squad": "Growth Squad",
+    "platoon": "Growth Platoon 3",
+    "battalion": "Business Battalion",
     "start_date": "2018-08-09"
   },
   {
@@ -522,9 +522,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Xi Squad",
-    "platoons": "Engineering Platoon 17",
-    "battalions": "Technology Battalion",
+    "squad": "Xi Squad",
+    "platoon": "Engineering Platoon 17",
+    "battalion": "Technology Battalion",
     "start_date": "2021-06-30"
   },
   {
@@ -533,9 +533,9 @@
     "job_family": "Data",
     "job_title": "Data Scientist",
     "business_unit": "Analytics",
-    "squads": "ML Squad",
-    "platoons": "Data Platoon 5",
-    "battalions": "Data Battalion",
+    "squad": "ML Squad",
+    "platoon": "Data Platoon 5",
+    "battalion": "Data Battalion",
     "start_date": "2020-12-14"
   },
   {
@@ -544,9 +544,9 @@
     "job_family": "Product",
     "job_title": "Product Manager",
     "business_unit": "Product Development",
-    "squads": "Omicron Squad",
-    "platoons": "Product Platoon 5",
-    "battalions": "Product Battalion",
+    "squad": "Omicron Squad",
+    "platoon": "Product Platoon 5",
+    "battalion": "Product Battalion",
     "start_date": "2018-04-27"
   },
   {
@@ -555,9 +555,9 @@
     "job_family": "Design",
     "job_title": "UX Researcher",
     "business_unit": "Product Development",
-    "squads": "Research Squad",
-    "platoons": "Product Platoon 6",
-    "battalions": "Product Battalion",
+    "squad": "Research Squad",
+    "platoon": "Product Platoon 6",
+    "battalion": "Product Battalion",
     "start_date": "2019-11-11"
   },
   {
@@ -566,9 +566,9 @@
     "job_family": "Engineering",
     "job_title": "DevOps Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Infrastructure Squad",
-    "platoons": "Engineering Platoon 18",
-    "battalions": "Technology Battalion",
+    "squad": "Infrastructure Squad",
+    "platoon": "Engineering Platoon 18",
+    "battalion": "Technology Battalion",
     "start_date": "2017-03-19"
   },
   {
@@ -577,9 +577,9 @@
     "job_family": "Customer Success",
     "job_title": "Customer Success Manager",
     "business_unit": "Customer Success",
-    "squads": "Enterprise CS Squad",
-    "platoons": "Customer Platoon 2",
-    "battalions": "Business Battalion",
+    "squad": "Enterprise CS Squad",
+    "platoon": "Customer Platoon 2",
+    "battalion": "Business Battalion",
     "start_date": "2020-07-05"
   },
   {
@@ -588,9 +588,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Pi Squad",
-    "platoons": "Engineering Platoon 19",
-    "battalions": "Technology Battalion",
+    "squad": "Pi Squad",
+    "platoon": "Engineering Platoon 19",
+    "battalion": "Technology Battalion",
     "start_date": "2021-10-28"
   },
   {
@@ -599,9 +599,9 @@
     "job_family": "Sales",
     "job_title": "Sales Development Representative",
     "business_unit": "Sales",
-    "squads": "SDR Squad",
-    "platoons": "Sales Platoon 3",
-    "battalions": "Business Battalion",
+    "squad": "SDR Squad",
+    "platoon": "Sales Platoon 3",
+    "battalion": "Business Battalion",
     "start_date": "2022-01-12"
   },
   {
@@ -610,9 +610,9 @@
     "job_family": "Engineering",
     "job_title": "Security Engineer",
     "business_unit": "Security",
-    "squads": "AppSec Squad",
-    "platoons": "Engineering Platoon 20",
-    "battalions": "Technology Battalion",
+    "squad": "AppSec Squad",
+    "platoon": "Engineering Platoon 20",
+    "battalion": "Technology Battalion",
     "start_date": "2019-02-08"
   },
   {
@@ -621,9 +621,9 @@
     "job_family": "Finance",
     "job_title": "Controller",
     "business_unit": "Finance",
-    "squads": "Accounting Squad",
-    "platoons": "Finance Platoon 3",
-    "battalions": "Operations Battalion",
+    "squad": "Accounting Squad",
+    "platoon": "Finance Platoon 3",
+    "battalion": "Operations Battalion",
     "start_date": "2018-10-23"
   },
   {
@@ -632,9 +632,9 @@
     "job_family": "Engineering",
     "job_title": "Backend Engineer",
     "business_unit": "Product Development",
-    "squads": "Rho Squad",
-    "platoons": "Engineering Platoon 21",
-    "battalions": "Technology Battalion",
+    "squad": "Rho Squad",
+    "platoon": "Engineering Platoon 21",
+    "battalion": "Technology Battalion",
     "start_date": "2020-05-11"
   },
   {
@@ -643,9 +643,9 @@
     "job_family": "Marketing",
     "job_title": "Social Media Manager",
     "business_unit": "Growth",
-    "squads": "Social Squad",
-    "platoons": "Growth Platoon 4",
-    "battalions": "Business Battalion",
+    "squad": "Social Squad",
+    "platoon": "Growth Platoon 4",
+    "battalion": "Business Battalion",
     "start_date": "2021-08-04"
   },
   {
@@ -654,9 +654,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Sigma Squad",
-    "platoons": "Engineering Platoon 22",
-    "battalions": "Technology Battalion",
+    "squad": "Sigma Squad",
+    "platoon": "Engineering Platoon 22",
+    "battalion": "Technology Battalion",
     "start_date": "2019-06-26"
   },
   {
@@ -665,9 +665,9 @@
     "job_family": "Data",
     "job_title": "Analytics Engineer",
     "business_unit": "Analytics",
-    "squads": "Data Platform Squad",
-    "platoons": "Data Platoon 6",
-    "battalions": "Data Battalion",
+    "squad": "Data Platform Squad",
+    "platoon": "Data Platoon 6",
+    "battalion": "Data Battalion",
     "start_date": "2018-01-17"
   },
   {
@@ -676,9 +676,9 @@
     "job_family": "Product",
     "job_title": "Product Manager",
     "business_unit": "Product Development",
-    "squads": "Tau Squad",
-    "platoons": "Product Platoon 7",
-    "battalions": "Product Battalion",
+    "squad": "Tau Squad",
+    "platoon": "Product Platoon 7",
+    "battalion": "Product Battalion",
     "start_date": "2017-11-29"
   },
   {
@@ -687,9 +687,9 @@
     "job_family": "Design",
     "job_title": "Brand Designer",
     "business_unit": "Marketing",
-    "squads": "Brand Squad",
-    "platoons": "Growth Platoon 5",
-    "battalions": "Business Battalion",
+    "squad": "Brand Squad",
+    "platoon": "Growth Platoon 5",
+    "battalion": "Business Battalion",
     "start_date": "2020-09-20"
   },
   {
@@ -698,9 +698,9 @@
     "job_family": "Engineering",
     "job_title": "Mobile Engineer",
     "business_unit": "Mobile",
-    "squads": "iOS Squad",
-    "platoons": "Engineering Platoon 23",
-    "battalions": "Technology Battalion",
+    "squad": "iOS Squad",
+    "platoon": "Engineering Platoon 23",
+    "battalion": "Technology Battalion",
     "start_date": "2019-04-05"
   },
   {
@@ -709,9 +709,9 @@
     "job_family": "HR",
     "job_title": "HR Business Partner",
     "business_unit": "People Operations",
-    "squads": "People Squad",
-    "platoons": "HR Platoon 3",
-    "battalions": "Operations Battalion",
+    "squad": "People Squad",
+    "platoon": "HR Platoon 3",
+    "battalion": "Operations Battalion",
     "start_date": "2018-07-13"
   },
   {
@@ -720,9 +720,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Upsilon Squad",
-    "platoons": "Engineering Platoon 24",
-    "battalions": "Technology Battalion",
+    "squad": "Upsilon Squad",
+    "platoon": "Engineering Platoon 24",
+    "battalion": "Technology Battalion",
     "start_date": "2021-03-02"
   },
   {
@@ -731,9 +731,9 @@
     "job_family": "Customer Success",
     "job_title": "Customer Support Specialist",
     "business_unit": "Customer Success",
-    "squads": "Support Squad",
-    "platoons": "Customer Platoon 3",
-    "battalions": "Business Battalion",
+    "squad": "Support Squad",
+    "platoon": "Customer Platoon 3",
+    "battalion": "Business Battalion",
     "start_date": "2022-02-18"
   },
   {
@@ -742,9 +742,9 @@
     "job_family": "Engineering",
     "job_title": "Frontend Engineer",
     "business_unit": "Product Development",
-    "squads": "Phi Squad",
-    "platoons": "Engineering Platoon 25",
-    "battalions": "Technology Battalion",
+    "squad": "Phi Squad",
+    "platoon": "Engineering Platoon 25",
+    "battalion": "Technology Battalion",
     "start_date": "2020-11-09"
   },
   {
@@ -753,9 +753,9 @@
     "job_family": "Sales",
     "job_title": "Account Executive",
     "business_unit": "Sales",
-    "squads": "Mid-Market Squad",
-    "platoons": "Sales Platoon 4",
-    "battalions": "Business Battalion",
+    "squad": "Mid-Market Squad",
+    "platoon": "Sales Platoon 4",
+    "battalion": "Business Battalion",
     "start_date": "2019-09-25"
   },
   {
@@ -764,9 +764,9 @@
     "job_family": "Engineering",
     "job_title": "Site Reliability Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Reliability Squad",
-    "platoons": "Engineering Platoon 26",
-    "battalions": "Technology Battalion",
+    "squad": "Reliability Squad",
+    "platoon": "Engineering Platoon 26",
+    "battalion": "Technology Battalion",
     "start_date": "2017-08-07"
   },
   {
@@ -775,9 +775,9 @@
     "job_family": "Data",
     "job_title": "Data Engineer",
     "business_unit": "Analytics",
-    "squads": "Data Pipeline Squad",
-    "platoons": "Data Platoon 7",
-    "battalions": "Data Battalion",
+    "squad": "Data Pipeline Squad",
+    "platoon": "Data Platoon 7",
+    "battalion": "Data Battalion",
     "start_date": "2018-12-21"
   },
   {
@@ -786,9 +786,9 @@
     "job_family": "Finance",
     "job_title": "Financial Analyst",
     "business_unit": "Finance",
-    "squads": "FP&A Squad",
-    "platoons": "Finance Platoon 4",
-    "battalions": "Operations Battalion",
+    "squad": "FP&A Squad",
+    "platoon": "Finance Platoon 4",
+    "battalion": "Operations Battalion",
     "start_date": "2020-04-14"
   },
   {
@@ -797,9 +797,9 @@
     "job_family": "Product",
     "job_title": "Associate Product Manager",
     "business_unit": "Product Development",
-    "squads": "Chi Squad",
-    "platoons": "Product Platoon 8",
-    "battalions": "Product Battalion",
+    "squad": "Chi Squad",
+    "platoon": "Product Platoon 8",
+    "battalion": "Product Battalion",
     "start_date": "2021-11-22"
   },
   {
@@ -808,9 +808,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Psi Squad",
-    "platoons": "Engineering Platoon 27",
-    "battalions": "Technology Battalion",
+    "squad": "Psi Squad",
+    "platoon": "Engineering Platoon 27",
+    "battalion": "Technology Battalion",
     "start_date": "2019-01-10"
   },
   {
@@ -819,9 +819,9 @@
     "job_family": "Marketing",
     "job_title": "Product Marketing Manager",
     "business_unit": "Growth",
-    "squads": "PMM Squad",
-    "platoons": "Growth Platoon 6",
-    "battalions": "Business Battalion",
+    "squad": "PMM Squad",
+    "platoon": "Growth Platoon 6",
+    "battalion": "Business Battalion",
     "start_date": "2018-03-28"
   },
   {
@@ -830,9 +830,9 @@
     "job_family": "Engineering",
     "job_title": "DevOps Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Cloud Squad",
-    "platoons": "Engineering Platoon 28",
-    "battalions": "Technology Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2020-08-19"
   },
   {
@@ -841,9 +841,9 @@
     "job_family": "Legal",
     "job_title": "Compliance Officer",
     "business_unit": "Legal",
-    "squads": "Compliance Squad",
-    "platoons": "Legal Platoon 2",
-    "battalions": "Operations Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2019-10-03"
   },
   {
@@ -852,9 +852,9 @@
     "job_family": "Engineering",
     "job_title": "Backend Engineer",
     "business_unit": "Product Development",
-    "squads": "Omega Squad",
-    "platoons": "Engineering Platoon 29",
-    "battalions": "Technology Battalion",
+    "squad": "Omega Squad",
+    "platoon": "Engineering Platoon 29",
+    "battalion": "Technology Battalion",
     "start_date": "2017-06-16"
   },
   {
@@ -863,9 +863,9 @@
     "job_family": "Design",
     "job_title": "Visual Designer",
     "business_unit": "Product Development",
-    "squads": "Design System Squad",
-    "platoons": "Product Platoon 9",
-    "battalions": "Product Battalion",
+    "squad": "Design System Squad",
+    "platoon": "Product Platoon 9",
+    "battalion": "Product Battalion",
     "start_date": "2021-01-25"
   },
   {
@@ -874,9 +874,9 @@
     "job_family": "Data",
     "job_title": "Machine Learning Engineer",
     "business_unit": "AI Research",
-    "squads": "Research Squad",
-    "platoons": "Data Platoon 8",
-    "battalions": "Data Battalion",
+    "squad": "Research Squad",
+    "platoon": "Data Platoon 8",
+    "battalion": "Data Battalion",
     "start_date": "2018-09-12"
   },
   {
@@ -885,9 +885,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Core Squad",
-    "platoons": "Engineering Platoon 30",
-    "battalions": "Technology Battalion",
+    "squad": "Core Squad",
+    "platoon": "Engineering Platoon 30",
+    "battalion": "Technology Battalion",
     "start_date": "2020-02-07"
   },
   {
@@ -896,9 +896,9 @@
     "job_family": "Sales",
     "job_title": "Sales Engineer",
     "business_unit": "Sales",
-    "squads": "SE Squad",
-    "platoons": "Sales Platoon 5",
-    "battalions": "Business Battalion",
+    "squad": "SE Squad",
+    "platoon": "Sales Platoon 5",
+    "battalion": "Business Battalion",
     "start_date": "2019-07-30"
   },
   {
@@ -907,9 +907,9 @@
     "job_family": "Customer Success",
     "job_title": "Customer Success Manager",
     "business_unit": "Customer Success",
-    "squads": "SMB CS Squad",
-    "platoons": "Customer Platoon 4",
-    "battalions": "Business Battalion",
+    "squad": "SMB CS Squad",
+    "platoon": "Customer Platoon 4",
+    "battalion": "Business Battalion",
     "start_date": "2021-05-18"
   },
   {
@@ -918,9 +918,9 @@
     "job_family": "Engineering",
     "job_title": "QA Engineer",
     "business_unit": "Quality Assurance",
-    "squads": "Automation Squad",
-    "platoons": "Engineering Platoon 31",
-    "battalions": "Technology Battalion",
+    "squad": "Automation Squad",
+    "platoon": "Engineering Platoon 31",
+    "battalion": "Technology Battalion",
     "start_date": "2020-10-06"
   },
   {
@@ -929,9 +929,9 @@
     "job_family": "HR",
     "job_title": "Learning & Development Manager",
     "business_unit": "People Operations",
-    "squads": "L&D Squad",
-    "platoons": "HR Platoon 4",
-    "battalions": "Operations Battalion",
+    "squad": "L&D Squad",
+    "platoon": "HR Platoon 4",
+    "battalion": "Operations Battalion",
     "start_date": "2018-05-24"
   },
   {
@@ -940,9 +940,9 @@
     "job_family": "Engineering",
     "job_title": "Mobile Engineer",
     "business_unit": "Mobile",
-    "squads": "Android Squad",
-    "platoons": "Engineering Platoon 32",
-    "battalions": "Technology Battalion",
+    "squad": "Android Squad",
+    "platoon": "Engineering Platoon 32",
+    "battalion": "Technology Battalion",
     "start_date": "2019-12-11"
   },
   {
@@ -951,9 +951,9 @@
     "job_family": "Product",
     "job_title": "Product Manager",
     "business_unit": "Product Development",
-    "squads": "Infrastructure PM Squad",
-    "platoons": "Product Platoon 10",
-    "battalions": "Product Battalion",
+    "squad": "Infrastructure PM Squad",
+    "platoon": "Product Platoon 10",
+    "battalion": "Product Battalion",
     "start_date": "2017-04-19"
   },
   {
@@ -962,9 +962,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "API Squad",
-    "platoons": "Engineering Platoon 33",
-    "battalions": "Technology Battalion",
+    "squad": "API Squad",
+    "platoon": "Engineering Platoon 33",
+    "battalion": "Technology Battalion",
     "start_date": "2021-07-28"
   },
   {
@@ -973,9 +973,9 @@
     "job_family": "Data",
     "job_title": "Data Scientist",
     "business_unit": "Analytics",
-    "squads": "Experimentation Squad",
-    "platoons": "Data Platoon 9",
-    "battalions": "Data Battalion",
+    "squad": "Experimentation Squad",
+    "platoon": "Data Platoon 9",
+    "battalion": "Data Battalion",
     "start_date": "2020-01-16"
   },
   {
@@ -984,9 +984,9 @@
     "job_family": "Finance",
     "job_title": "Tax Analyst",
     "business_unit": "Finance",
-    "squads": "Tax Squad",
-    "platoons": "Finance Platoon 5",
-    "battalions": "Operations Battalion",
+    "squad": "Tax Squad",
+    "platoon": "Finance Platoon 5",
+    "battalion": "Operations Battalion",
     "start_date": "2019-08-05"
   },
   {
@@ -995,9 +995,9 @@
     "job_family": "Marketing",
     "job_title": "Email Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Email Squad",
-    "platoons": "Growth Platoon 7",
-    "battalions": "Business Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2018-11-22"
   },
   {
@@ -1006,9 +1006,9 @@
     "job_family": "Engineering",
     "job_title": "Security Engineer",
     "business_unit": "Security",
-    "squads": "Security Operations Squad",
-    "platoons": "Engineering Platoon 34",
-    "battalions": "Technology Battalion",
+    "squad": "Security Operations Squad",
+    "platoon": "Engineering Platoon 34",
+    "battalion": "Technology Battalion",
     "start_date": "2017-02-09"
   },
   {
@@ -1017,9 +1017,9 @@
     "job_family": "Design",
     "job_title": "Senior Product Designer",
     "business_unit": "Product Development",
-    "squads": "Platform Design Squad",
-    "platoons": "Product Platoon 11",
-    "battalions": "Product Battalion",
+    "squad": "Platform Design Squad",
+    "platoon": "Product Platoon 11",
+    "battalion": "Product Battalion",
     "start_date": "2020-06-13"
   },
   {
@@ -1028,9 +1028,9 @@
     "job_family": "Engineering",
     "job_title": "Full Stack Engineer",
     "business_unit": "Product Development",
-    "squads": "Integration Squad",
-    "platoons": "Engineering Platoon 35",
-    "battalions": "Technology Battalion",
+    "squad": "Integration Squad",
+    "platoon": "Engineering Platoon 35",
+    "battalion": "Technology Battalion",
     "start_date": "2021-09-29"
   },
   {
@@ -1039,9 +1039,9 @@
     "job_family": "Sales",
     "job_title": "Regional Sales Manager",
     "business_unit": "Sales",
-    "squads": "Regional Squad",
-    "platoons": "Sales Platoon 6",
-    "battalions": "Business Battalion",
+    "squad": "Regional Squad",
+    "platoon": "Sales Platoon 6",
+    "battalion": "Business Battalion",
     "start_date": "2016-12-03"
   },
   {
@@ -1050,9 +1050,9 @@
     "job_family": "Engineering",
     "job_title": "Site Reliability Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Observability Squad",
-    "platoons": "Engineering Platoon 36",
-    "battalions": "Technology Battalion",
+    "squad": "Observability Squad",
+    "platoon": "Engineering Platoon 36",
+    "battalion": "Technology Battalion",
     "start_date": "2019-03-21"
   },
   {
@@ -1061,9 +1061,9 @@
     "job_family": "Customer Success",
     "job_title": "Customer Success Manager",
     "business_unit": "Customer Success",
-    "squads": "International CS Squad",
-    "platoons": "Customer Platoon 5",
-    "battalions": "Business Battalion",
+    "squad": "International CS Squad",
+    "platoon": "Customer Platoon 5",
+    "battalion": "Business Battalion",
     "start_date": "2018-08-17"
   },
   {
@@ -1072,9 +1072,9 @@
     "job_family": "Data",
     "job_title": "Data Engineer",
     "business_unit": "Analytics",
-    "squads": "ETL Squad",
-    "platoons": "Data Platoon 10",
-    "battalions": "Data Battalion",
+    "squad": "ETL Squad",
+    "platoon": "Data Platoon 10",
+    "battalion": "Data Battalion",
     "start_date": "2020-12-01"
   },
   {
@@ -1083,9 +1083,9 @@
     "job_family": "Product",
     "job_title": "Senior Product Manager",
     "business_unit": "Product Development",
-    "squads": "Platform PM Squad",
-    "platoons": "Product Platoon 12",
-    "battalions": "Product Battalion",
+    "squad": "Platform PM Squad",
+    "platoon": "Product Platoon 12",
+    "battalion": "Product Battalion",
     "start_date": "2016-10-14"
   },
   {
@@ -1094,9 +1094,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Search Squad",
-    "platoons": "Engineering Platoon 37",
-    "battalions": "Technology Battalion",
+    "squad": "Search Squad",
+    "platoon": "Engineering Platoon 37",
+    "battalion": "Technology Battalion",
     "start_date": "2021-04-26"
   },
   {
@@ -1105,9 +1105,9 @@
     "job_family": "HR",
     "job_title": "Diversity & Inclusion Manager",
     "business_unit": "People Operations",
-    "squads": "D&I Squad",
-    "platoons": "HR Platoon 5",
-    "battalions": "Operations Battalion",
+    "squad": "D&I Squad",
+    "platoon": "HR Platoon 5",
+    "battalion": "Operations Battalion",
     "start_date": "2019-06-08"
   },
   {
@@ -1116,9 +1116,9 @@
     "job_family": "Engineering",
     "job_title": "Backend Engineer",
     "business_unit": "Product Development",
-    "squads": "Payments Squad",
-    "platoons": "Engineering Platoon 38",
-    "battalions": "Technology Battalion",
+    "squad": "Payments Squad",
+    "platoon": "Engineering Platoon 38",
+    "battalion": "Technology Battalion",
     "start_date": "2020-09-14"
   },
   {
@@ -1127,9 +1127,9 @@
     "job_family": "Marketing",
     "job_title": "Digital Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Performance Squad",
-    "platoons": "Growth Platoon 8",
-    "battalions": "Business Battalion",
+    "squad": "Epsilon Squad",
+    "platoon": "Product Platoon 2",
+    "battalion": "Product Battalion",
     "start_date": "2018-02-06"
   },
   {
@@ -1138,9 +1138,9 @@
     "job_family": "Engineering",
     "job_title": "Cloud Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Multi-Cloud Squad",
-    "platoons": "Engineering Platoon 39",
-    "battalions": "Technology Battalion",
+    "squad": "Multi-Cloud Squad",
+    "platoon": "Engineering Platoon 39",
+    "battalion": "Technology Battalion",
     "start_date": "2017-10-25"
   },
   {
@@ -1149,9 +1149,9 @@
     "job_family": "Design",
     "job_title": "Motion Designer",
     "business_unit": "Product Development",
-    "squads": "Animation Squad",
-    "platoons": "Product Platoon 13",
-    "battalions": "Product Battalion",
+    "squad": "Animation Squad",
+    "platoon": "Product Platoon 13",
+    "battalion": "Product Battalion",
     "start_date": "2021-12-15"
   },
   {
@@ -1160,9 +1160,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Notifications Squad",
-    "platoons": "Engineering Platoon 40",
-    "battalions": "Technology Battalion",
+    "squad": "Notifications Squad",
+    "platoon": "Engineering Platoon 40",
+    "battalion": "Technology Battalion",
     "start_date": "2020-03-31"
   },
   {
@@ -1171,9 +1171,9 @@
     "job_family": "Data",
     "job_title": "Analytics Manager",
     "business_unit": "Analytics",
-    "squads": "Insights Squad",
-    "platoons": "Data Platoon 11",
-    "battalions": "Data Battalion",
+    "squad": "Insights Squad",
+    "platoon": "Data Platoon 11",
+    "battalion": "Data Battalion",
     "start_date": "2016-08-18"
   },
   {
@@ -1182,9 +1182,9 @@
     "job_family": "Sales",
     "job_title": "Partner Manager",
     "business_unit": "Sales",
-    "squads": "Partnerships Squad",
-    "platoons": "Sales Platoon 7",
-    "battalions": "Business Battalion",
+    "squad": "Partnerships Squad",
+    "platoon": "Sales Platoon 7",
+    "battalion": "Business Battalion",
     "start_date": "2019-11-27"
   },
   {
@@ -1193,9 +1193,9 @@
     "job_family": "Engineering",
     "job_title": "Mobile Engineer",
     "business_unit": "Mobile",
-    "squads": "Cross-Platform Squad",
-    "platoons": "Engineering Platoon 41",
-    "battalions": "Technology Battalion",
+    "squad": "Cross-Platform Squad",
+    "platoon": "Engineering Platoon 41",
+    "battalion": "Technology Battalion",
     "start_date": "2018-07-04"
   },
   {
@@ -1204,9 +1204,9 @@
     "job_family": "Customer Success",
     "job_title": "Implementation Manager",
     "business_unit": "Customer Success",
-    "squads": "Implementation Squad",
-    "platoons": "Customer Platoon 6",
-    "battalions": "Business Battalion",
+    "squad": "Implementation Squad",
+    "platoon": "Customer Platoon 6",
+    "battalion": "Business Battalion",
     "start_date": "2020-11-19"
   },
   {
@@ -1215,9 +1215,9 @@
     "job_family": "Product",
     "job_title": "Product Operations Manager",
     "business_unit": "Product Development",
-    "squads": "Product Ops Squad",
-    "platoons": "Product Platoon 14",
-    "battalions": "Product Battalion",
+    "squad": "Product Ops Squad",
+    "platoon": "Product Platoon 14",
+    "battalion": "Product Battalion",
     "start_date": "2017-01-08"
   },
   {
@@ -1226,9 +1226,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Messaging Squad",
-    "platoons": "Engineering Platoon 42",
-    "battalions": "Technology Battalion",
+    "squad": "Messaging Squad",
+    "platoon": "Engineering Platoon 42",
+    "battalion": "Technology Battalion",
     "start_date": "2021-06-12"
   },
   {
@@ -1237,9 +1237,9 @@
     "job_family": "Finance",
     "job_title": "Senior Accountant",
     "business_unit": "Finance",
-    "squads": "General Accounting Squad",
-    "platoons": "Finance Platoon 6",
-    "battalions": "Operations Battalion",
+    "squad": "General Accounting Squad",
+    "platoon": "Finance Platoon 6",
+    "battalion": "Operations Battalion",
     "start_date": "2019-04-29"
   },
   {
@@ -1248,9 +1248,9 @@
     "job_family": "Engineering",
     "job_title": "Infrastructure Engineer",
     "business_unit": "Infrastructure",
-    "squads": "Network Squad",
-    "platoons": "Engineering Platoon 43",
-    "battalions": "Technology Battalion",
+    "squad": "Network Squad",
+    "platoon": "Engineering Platoon 43",
+    "battalion": "Technology Battalion",
     "start_date": "2018-10-10"
   },
   {
@@ -1259,9 +1259,9 @@
     "job_family": "Legal",
     "job_title": "Privacy Counsel",
     "business_unit": "Legal",
-    "squads": "Privacy Squad",
-    "platoons": "Legal Platoon 3",
-    "battalions": "Operations Battalion",
+    "squad": "Privacy Squad",
+    "platoon": "Legal Platoon 3",
+    "battalion": "Operations Battalion",
     "start_date": "2020-05-27"
   },
   {
@@ -1270,9 +1270,9 @@
     "job_family": "Data",
     "job_title": "Senior Data Engineer",
     "business_unit": "Analytics",
-    "squads": "Data Infrastructure Squad",
-    "platoons": "Data Platoon 12",
-    "battalions": "Data Battalion",
+    "squad": "Data Infrastructure Squad",
+    "platoon": "Data Platoon 12",
+    "battalion": "Data Battalion",
     "start_date": "2016-07-15"
   },
   {
@@ -1281,9 +1281,9 @@
     "job_family": "Marketing",
     "job_title": "Partner Marketing Manager",
     "business_unit": "Growth",
-    "squads": "Partner Marketing Squad",
-    "platoons": "Growth Platoon 9",
-    "battalions": "Business Battalion",
+    "squad": "Payments Squad",
+    "platoon": "Engineering Platoon 38",
+    "battalion": "Technology Battalion",
     "start_date": "2021-02-23"
   },
   {
@@ -1292,9 +1292,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Workflow Squad",
-    "platoons": "Engineering Platoon 44",
-    "battalions": "Technology Battalion",
+    "squad": "Workflow Squad",
+    "platoon": "Engineering Platoon 44",
+    "battalion": "Technology Battalion",
     "start_date": "2019-09-09"
   },
   {
@@ -1303,9 +1303,9 @@
     "job_family": "Design",
     "job_title": "Design Manager",
     "business_unit": "Product Development",
-    "squads": "Design Leadership Squad",
-    "platoons": "Product Platoon 15",
-    "battalions": "Product Battalion",
+    "squad": "Design Leadership Squad",
+    "platoon": "Product Platoon 15",
+    "battalion": "Product Battalion",
     "start_date": "2016-05-21"
   },
   {
@@ -1314,9 +1314,9 @@
     "job_family": "Engineering",
     "job_title": "Frontend Engineer",
     "business_unit": "Product Development",
-    "squads": "Dashboard Squad",
-    "platoons": "Engineering Platoon 45",
-    "battalions": "Technology Battalion",
+    "squad": "Dashboard Squad",
+    "platoon": "Engineering Platoon 45",
+    "battalion": "Technology Battalion",
     "start_date": "2020-08-03"
   },
   {
@@ -1325,9 +1325,9 @@
     "job_family": "HR",
     "job_title": "Compensation & Benefits Manager",
     "business_unit": "People Operations",
-    "squads": "Compensation Squad",
-    "platoons": "HR Platoon 6",
-    "battalions": "Operations Battalion",
+    "squad": "Payments Squad",
+    "platoon": "Engineering Platoon 38",
+    "battalion": "Technology Battalion",
     "start_date": "2018-04-16"
   },
   {
@@ -1336,9 +1336,9 @@
     "job_family": "Sales",
     "job_title": "Sales Operations Manager",
     "business_unit": "Sales",
-    "squads": "Sales Ops Squad",
-    "platoons": "Sales Platoon 8",
-    "battalions": "Business Battalion",
+    "squad": "Sales Ops Squad",
+    "platoon": "Sales Platoon 8",
+    "battalion": "Business Battalion",
     "start_date": "2017-12-28"
   },
   {
@@ -1347,9 +1347,9 @@
     "job_family": "Engineering",
     "job_title": "Software Engineer",
     "business_unit": "Product Development",
-    "squads": "Reporting Squad",
-    "platoons": "Engineering Platoon 46",
-    "battalions": "Technology Battalion",
+    "squad": "Reporting Squad",
+    "platoon": "Engineering Platoon 46",
+    "battalion": "Technology Battalion",
     "start_date": "2021-10-07"
   },
   {
@@ -1358,9 +1358,9 @@
     "job_family": "Product",
     "job_title": "Group Product Manager",
     "business_unit": "Product Development",
-    "squads": "Core Products Squad",
-    "platoons": "Product Platoon 16",
-    "battalions": "Product Battalion",
+    "squad": "Payments Squad",
+    "platoon": "Engineering Platoon 38",
+    "battalion": "Technology Battalion",
     "start_date": "2016-03-11"
   }
 ]
