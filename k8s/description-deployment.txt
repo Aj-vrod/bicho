@@ -1,0 +1,65 @@
+Name:             bicho-app-568f84c458-qfmpp
+Namespace:        bicho
+Priority:         0
+Service Account:  default
+# Which machine (VM) is running this pod
+Node:             minikube/192.XXX.XX.X
+Start Time:       Sun, 08 Feb 2026 15:36:41 +0100
+# Used for selection and grouping
+Labels:           app=bicho
+                  pod-template-hash=568f84c458
+Annotations:      <none>
+Status:           Running
+# Internal cluster IP for this pod (changes if pod restarts!)
+IP:               10.XXX.X.X
+IPs:
+  IP:           10.XXX.X.X
+# The Deployment creates a ReplicaSet, which actually manages the pods
+Controlled By:  ReplicaSet/bicho-app-568f84c458
+
+Containers:
+  bicho:
+    Container ID:   docker://4014c80ea7ad4d35b0c67f0f762d6d40218c6f5ec5f4f3a8d03738efd7bddc81
+    # Confirms the correct image is running
+    Image:          bicho:latest
+    Image ID:       docker://sha256:827b1b8f87134133f11f2249f6ae8edcd6e69e0ffc0e2581a44fcc52bac14e08
+    Port:           8080/TCP (http)
+    Host Port:      0/TCP (http)
+    State:          Running
+      Started:      Sun, 08 Feb 2026 15:36:42 +0100
+    # Container passed readiness checks and can receive traffic
+    Ready:          True
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-dm65p (ro)
+
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+
+Volumes:
+  kube-api-access-dm65p:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+# No resource limits set, so lowest priority if node runs out of resources
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+
+# Shows the pod lifecycle: Scheduled → Image Pulled → Container Created → Container Started
+Events:
+  Type    Reason     Age   From               Message
+  ----    ------     ----  ----               -------
+  Normal  Scheduled  61s   default-scheduler  Successfully assigned bicho/bicho-app-568f84c458-qfmpp to minikube
+  Normal  Pulled     60s   kubelet            spec.containers{bicho}: Container image "bicho:latest" already present on machine
+  Normal  Created    60s   kubelet            spec.containers{bicho}: Created container: bicho
+  Normal  Started    60s   kubelet            spec.containers{bicho}: Started container bicho
