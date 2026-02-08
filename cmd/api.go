@@ -21,7 +21,6 @@ const (
 )
 
 func NewApiCmd(version string) *cobra.Command {
-
 	return &cobra.Command{
 		Use:   "api",
 		Short: "Amazing and luxurious CLI",

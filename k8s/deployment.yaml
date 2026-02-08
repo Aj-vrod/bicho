@@ -1,0 +1,37 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+
+# Describes identity of my app
+metadata:
+  name: bicho-app
+  labels:
+    app: bicho
+    owner: ajvrod
+
+# Describes desired state of my app
+spec:
+  replicas: 2
+  # How the Deployment finds which pods it manages
+  selector:
+    # The Deployment will manage all pods with these labels
+    matchLabels:
+      app: bicho
+  template:
+    # Information for the pods that will be created
+    metadata:
+      # Labels applied to each pod
+      labels:
+        app: bicho
+    # What should be inside each pod
+    spec:
+      containers:
+      - name: bicho
+        image: bicho:latest
+        # Don't try to pull from a registry, use local image
+        imagePullPolicy: Never
+        ports:
+          # The port your Go app listens on (from your Dockerfile)
+        - containerPort: 8080
+          # A friendly name for this port (optional but useful)
+          name: http

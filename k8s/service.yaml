@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Service
+
+# # Describes identity of my Service
+metadata:
+  # Name of your Service (used in DNS: bicho-service.bicho.svc.cluster.local)
+  name: bicho-service
+  # Organize your services (optional but good practice)
+  labels:
+    app: bicho
+
+# Describes the desired state of your Service
+spec:
+  # All types:
+  # ClusterIP (Default)
+    # What it does: Creates an internal IP accessible only inside the cluster
+    # Use case: For services that should only be accessed by other pods (databases, internal APIs)
+    # Access: Only from within the cluster, not from your laptop
+    # Example: A PostgreSQL database
+  # NodePort
+    # What it does: Exposes the Service on each Node's IP at a static port (30000-32767 range)
+    # Use case: Development/testing when you need external access without a load balancer
+    # Access: From outside cluster via <NodeIP>:<NodePort>
+    # Example: Your bicho-app in Minikube for local testing
+  # LoadBalancer
+    # What it does: Creates an external load balancer (in cloud providers like AWS, GCP, Azure)
+    # Use case: Production apps that need external access with automatic load balancing
+    # Access: Through a public IP provided by the cloud provider
+    # Note: Doesn't work in Minikube (no cloud provider), but you can test it with minikube tunnel
+    # Example: Production web API exposed to the internet
+  # ExternalName
+    # What it does: Maps a Service to a DNS name (like database.example.com)
+    # Use case: Accessing external services through Kubernetes DNS
+    # Access: Returns a CNAME record
+    # Example: Connecting to an external managed database
+  type: NodePort
+  # Tells the Service which pods to send traffic to
+  selector:
+    # Send traffic to all pods with this label
+    app: bicho
+  ports:
+    # Friendly name for this port
+  - name: http
+    protocol: TCP
+    # Port the Service listens on
+    port: 80
+    # Port on your container where traffic goes (your Go app's port)
+    targetPort: 8080
+  # sessionAffinity: ClientIP
+  # externalTrafficPolicy: Local

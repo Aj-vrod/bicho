@@ -36,7 +36,7 @@ type Member struct {
 	StartDate    string `json:"start_date"`
 }
 
-// Employee entry, struct from data
+// Employee entry from data
 type Employee struct {
 	Name         string `json:"name"`
 	Country      string `json:"country"`

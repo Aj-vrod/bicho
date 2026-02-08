@@ -1,0 +1,44 @@
+Name:                     bicho-service
+Namespace:                bicho
+Labels:                   app=bicho
+Annotations:              <none>
+# This is how the Service finds your pods! Must match pod labels
+Selector:                 app=bicho
+Type:                     NodePort
+IP Family Policy:         SingleStack
+IP Families:              IPv4
+# The Service's internal cluster IP (stable, doesn't change)
+IP:                       10.107.75.118
+IPs:                      10.107.75.118
+# Port the Service listens on inside the cluster
+Port:                     http  80/TCP
+# Port on your pods where traffic is sent (your app's port)
+TargetPort:               8080/TCP
+# Port exposed on the Node for external access
+NodePort:                 http  32750/TCP
+# The actual pod IPs the Service routes to (your 2 pods!)
+Endpoints:                10.244.0.11:8080,10.244.0.10:8080
+# Routing flow: External → NodePort 32750 → Service Port 80 → TargetPort 8080 (Pods)
+
+# All types:
+  # None (default) - What you have now
+    # Each request can go to any pod
+    # Like a true load balancing
+  # ClientIP
+    # Requests from the same client IP always go to the same pod
+    # Sticky sessions based on source IP
+    # Good for apps that need session state (though stateless is better!)
+Session Affinity:         None
+
+# All types:
+  # Cluster (default)
+    # Traffic can be routed to any node, then forwarded to any pod
+    # Better load distribution
+    # Drawback: Source IP is lost (becomes the node's IP)
+  # Local
+    # Traffic only goes to pods on the same node where it arrives
+    # Preserves source IP address
+    # Drawback: Uneven load distribution (only local pods get traffic)
+External Traffic Policy:  Cluster
+Internal Traffic Policy:  Cluster
+Events:                   <none>
