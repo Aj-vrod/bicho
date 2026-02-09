@@ -4,8 +4,8 @@ import (
 	"Aj-vrod/bicho/pkg/config"
 	"Aj-vrod/bicho/pkg/organization"
 	"database/sql"
+	"fmt"
 	"log"
-	"reflect"
 )
 
 func connectWithDB() (*sql.DB, error) {
@@ -52,7 +52,10 @@ func SyncOrgWithDB(filePath string) error {
 
 		// Check if employee already in db
 		var oldE organization.Employee
-		err = selectQuery.QueryRow(e.Name, e.StartDate, e.Country).Scan(&oldE)
+		err = selectQuery.QueryRow(e.Name, e.StartDate, e.Country).Scan(&oldE.Name, &oldE.Country, &oldE.JobFamily, &oldE.JobTitle, &oldE.BusinessUnit, &oldE.Squad, &oldE.Platoon, &oldE.Battalion, &oldE.StartDate)
+		if err != nil && err != sql.ErrNoRows {
+			return err
+		}
 		if err == sql.ErrNoRows {
 			// Prepare INSERT query
 			insertQuery, err := db.Prepare("INSERT INTO employees(name, country, job_family, job_title, business_unit, squad, platoon, battalion, start_date) VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9);")
@@ -74,9 +77,9 @@ func SyncOrgWithDB(filePath string) error {
 			log.Printf("Employee %s successfully added.\n", e.Name)
 		} else {
 			// Check if there are updates to be made
-			wasUpdated := reflect.DeepEqual(e, oldE)
+			wasUpdated := compareEntries(oldE, e)
 			if !wasUpdated {
-				log.Printf("Employee %s needed no update.\n", e.Name)
+				log.Printf("Skipping employee %s\n", e.Name)
 				continue
 			}
 
@@ -102,6 +105,30 @@ func SyncOrgWithDB(filePath string) error {
 
 	}
 	return nil
+}
+
+func compareEntries(oldE, e organization.Employee) bool {
+	if e.JobFamily != oldE.JobFamily {
+		fmt.Println(e.JobFamily)
+		fmt.Println(oldE.JobFamily)
+		return true
+	}
+	if e.JobTitle != oldE.JobTitle {
+		return true
+	}
+	if e.BusinessUnit != oldE.BusinessUnit {
+		return true
+	}
+	if e.Squad != oldE.Squad {
+		return true
+	}
+	if e.Platoon != oldE.Platoon {
+		return true
+	}
+	if e.Battalion != oldE.Battalion {
+		return true
+	}
+	return false
 }
 
 func GetEmployees() ([]organization.Employee, error) {
