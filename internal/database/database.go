@@ -15,6 +15,9 @@ func connectWithDB() (*sql.DB, error) {
 		return nil, err
 	}
 	db, err := sql.Open("postgres", cfg.DBDNS)
+	if err != nil {
+		return nil, err
+	}
 
 	// Check connection
 	if err := db.Ping(); err != nil {
@@ -34,6 +37,9 @@ func SyncOrgWithDB(filePath string) error {
 
 	// Get list of employees from file
 	employees, err := organization.ReadOrgData(filePath)
+	if err != nil {
+		return err
+	}
 
 	// Insert employees into db
 	for _, e := range employees {
