@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: bicho-postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: bicho
+      POSTGRES_PASSWORD: bicho-pwd
+      POSTGRES_DB: bicho
+    ports:
+      - 5432:5432
