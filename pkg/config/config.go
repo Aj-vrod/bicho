@@ -5,7 +5,8 @@ import (
 )
 
 type Config struct {
-	HTTPPort int `envconfig:"HTTP_PORT" default:"8080"`
+	HTTPPort int    `envconfig:"HTTP_PORT" default:"8080"`
+	DBDNS    string `envconfig:"DB_DNS" default:"postgres://bicho:bicho-pwd@localhost:5432/bicho?sslmode=disable"`
 }
 
 func LoadFromEnv() (*Config, error) {
