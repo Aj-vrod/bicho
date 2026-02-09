@@ -13,13 +13,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const (
-	ROOT_PATH         = "/"
-	ORGANIZATION_PATH = "/organization"
-
-	ORG_FILE_PATH = "./employees.json"
-)
-
 func NewApiCmd(version string) *cobra.Command {
 	return &cobra.Command{
 		Use:   "api",
@@ -34,7 +27,7 @@ func NewApiCmd(version string) *cobra.Command {
 func startServer() {
 	cfg, err := config.LoadFromEnv()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to load config from env with error: ", err)
 	}
 
 	fmt.Printf("Server listening in port %v...\n", cfg.HTTPPort)
@@ -49,7 +42,7 @@ func startServer() {
 
 	err = http.ListenAndServe(fmt.Sprintf(":%d", cfg.HTTPPort), r)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to start the server with error: ", err)
 	}
 }
 
@@ -62,19 +55,19 @@ func OrganizationHandler(w http.ResponseWriter, _ *http.Request) {
 	// Get latest org data
 	org, err := organization.ReadOrgData(ORG_FILE_PATH)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to read org data with error: ", err)
 		w.WriteHeader(http.StatusInternalServerError)
 	}
 
 	// Parse data into tree structure
 	treeOrg, err := organization.ProcessOrgData(org)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to parse org data with error: ", err)
 		w.WriteHeader(http.StatusInternalServerError)
 	}
 	data, err := json.Marshal(treeOrg)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to marshall org data with error: ", err)
 		w.WriteHeader(http.StatusInternalServerError)
 	}
 
