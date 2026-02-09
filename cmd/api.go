@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"Aj-vrod/bicho/internal/database"
 	"Aj-vrod/bicho/pkg/config"
 	"Aj-vrod/bicho/pkg/organization"
 	"encoding/json"
@@ -53,7 +54,7 @@ func rootHandler(w http.ResponseWriter, _ *http.Request) {
 
 func OrganizationHandler(w http.ResponseWriter, _ *http.Request) {
 	// Get latest org data
-	org, err := organization.ReadOrgData(ORG_FILE_PATH)
+	org, err := database.GetEmployees()
 	if err != nil {
 		log.Fatal("Failed to read org data with error: ", err)
 		w.WriteHeader(http.StatusInternalServerError)
