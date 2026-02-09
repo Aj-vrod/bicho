@@ -14,21 +14,21 @@ func main() {
 	// Connect to DB
 	cfg, err := config.LoadFromEnv()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal("Failed to load config from env with error: ", err)
 	}
 	db, err := sql.Open("postgres", cfg.DBDNS)
 	if err != nil {
-		log.Fatalf("Failed to connect to database: %v", err)
+		log.Fatal("Failed to connect to database with error: ", err)
 	}
 	defer db.Close()
 
 	if err := db.Ping(); err != nil {
-		log.Fatalf("Failed to ping database: %v", err)
+		log.Fatal("Failed to ping database with error: ", err)
 	}
 
 	// Run migrations
 	if err := database.RunMigrations(db, "./migrations"); err != nil {
-		log.Fatalf("Failed to run migrations: %v", err)
+		log.Fatal("Failed to run migrations with error: ", err)
 	}
 
 	log.Println("Database connection and migrations successful")
