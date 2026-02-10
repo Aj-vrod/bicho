@@ -1,0 +1,52 @@
+# Flow:
+# At the scheduled time, CronJob creates a new Job
+# The Job creates a Pod that runs your container
+# Your container executes the command
+# When complete, the Pod terminates
+# The Job is marked as complete
+# The CronJob waits until the next scheduled time
+apiVersion: batch/v1
+kind: CronJob
+
+metadata:
+  name: bicho-sync-cronjob
+  namespace: bicho
+
+spec:
+  # * * * * *
+  # │ │ │ │ │
+  # │ │ │ │ └─── Day of week (0-7, both 0 and 7 mean Sunday)
+  # │ │ │ └───── Month (1-12)
+  # │ │ └─────── Day of month (1-31)
+  # │ └───────── Hour (0-23)
+  # └─────────── Minute (0-59)
+  schedule: "0 9 * * *" # Every day at 9:00 AM
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3 # Keep last 3 successful Jobs
+  failedJobsHistoryLimit: 1     # Keep last 1 failed Job
+
+  jobTemplate:
+    spec:
+      # How long to keep trying before giving up
+      backoffLimit: 2  # Retry 2 times if it fails
+      # Maximum time for the job to run
+      activeDeadlineSeconds: 180  # 3 minutes timeout
+      template:
+        spec:
+          containers:
+          - name: bicho-sync
+            image: bicho:latest
+            # Don't try to pull from a registry, use local image
+            imagePullPolicy: Never
+            command: ["bin/bicho", "sync"]
+            env:
+            - name: DB_DNS
+              value: "postgres://bicho:bicho-pwd@postgres-service:5432/bicho?sslmode=disable"
+          restartPolicy: OnFailure
+
+# Considerations
+# A cronjob should be able to run multiple times without causing problems
+# Concurrency Policy: What happens if the previous sync is still running when the next one is scheduled?
+  # Allow (default): Multiple Jobs can run at the same time
+  # Forbid: Skip the new Job if the previous one is still running
+  # Replace: Cancel the old Job and start a new one
