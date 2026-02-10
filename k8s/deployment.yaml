@@ -28,7 +28,16 @@ spec:
       containers:
       - name: bicho
         image: bicho:latest
-        # Don't try to pull from a registry, use local image
+        # All types:
+        # Always - Always try to pull from a remote registry (Docker Hub, etc.)
+          # This is the DEFAULT for :latest tag
+          # Kubernetes ignores local images and always tries to download
+        # IfNotPresent - Only pull if the image doesn't exist locally
+          # First checks minikube's Docker daemon
+          # Only pulls from registry if not found
+        # Never - Never pull from registry, only use local images
+          # Must exist locally or Pod fails
+          # Best for development with minikube
         imagePullPolicy: Never
         ports:
           # The port your Go app listens on (from your Dockerfile)
