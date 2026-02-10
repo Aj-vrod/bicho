@@ -35,3 +35,9 @@ spec:
         - containerPort: 8080
           # A friendly name for this port (optional but useful)
           name: http
+        env:
+          # Kubernetes has built-in DNS. When you create a Service named postgres-service, 
+          # Kubernetes automatically creates a DNS record. 
+          # Any pod can reach it using just the service name as the hostname.
+          - name: DB_DNS
+            value: "postgres://bicho:bicho-pwd@postgres-service:5432/bicho?sslmode=disable"
