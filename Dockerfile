@@ -10,6 +10,7 @@ RUN make build
 FROM ubuntu:24.04
 COPY --from=builder out/bicho /bin/bicho
 COPY employees.json ./employees.json
+COPY migrations migrations
 
 RUN chmod a+x bin/bicho
 
