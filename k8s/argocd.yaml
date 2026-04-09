@@ -1,22 +1,53 @@
+# The API version tells Kubernetes which version of the ArgoCD API to use
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 
+# Metadata contains information to identify this specific Application resource
 metadata:
+  # The name of this ArgoCD Application (used to identify it in commands and UI)
   name: my-argocd-application
+  
+  # The namespace where this ArgoCD Application resource will be created
+  # Note: This is where ArgoCD stores the Application config, not where your app runs
   namespace: argocd
 
+# Spec (specification) defines the desired state of the application
 spec:
+  # The ArgoCD project this application belongs to (default is the built-in project)
   project: default
+  
+  # Source defines where the application's Kubernetes manifests are located
   source:
+    # The Git repository URL where your Kubernetes manifest files are stored
     repoURL: https://github.com/Aj-vrod/bicho.git
+    
+    # Which branch, tag, or commit to use (HEAD means the latest commit on the default branch)
     targetRevision: HEAD
+    
+    # The folder path within the repository where the Kubernetes manifests are located
     path: k8s
+  
+  # Destination defines where the application should be deployed
   destination:
+    # The Kubernetes cluster where the app will be deployed (this URL means "this cluster")
     server: https://kubernetes.default.svc
+    
+    # The namespace in the Kubernetes cluster where your application will run
     namespace: bicho
+  
+  # SyncPolicy controls how ArgoCD synchronizes your Git repository with the cluster
   syncPolicy:
+    # Additional sync options to configure how ArgoCD applies changes
     syncOptions:
+    # Automatically create the namespace if it doesn't exist
     - CreateNamespace=true
+    
+    # Automated sync settings (ArgoCD will automatically apply changes from Git)
     automated:
+      # If true, ArgoCD will automatically fix any manual changes made to the cluster
+      # (it will revert the cluster back to match what's in Git)
       selfHeal: true
+      
+      # If true, ArgoCD will delete resources that exist in the cluster
+      # but are no longer defined in Git
       prune: true
