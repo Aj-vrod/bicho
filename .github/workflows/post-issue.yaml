@@ -26,6 +26,9 @@ jobs:
           scope: Aj-vrod/bicho
           identity: dev
 
+      - name: Checkout
+        uses: actions/checkout@v7
+        
       - name: "Post issue"
         env:
           GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token }}
