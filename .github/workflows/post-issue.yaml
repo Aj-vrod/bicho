@@ -30,7 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token }}
         run: |
-          gh issue create --title ${{ inputs.title }} --body ${{ inputs.body }}
+          gh issue create --title "${{ inputs.title }}" --body "${{ inputs.body }}"
 
 
 
