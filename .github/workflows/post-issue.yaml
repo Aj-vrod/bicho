@@ -1,0 +1,36 @@
+name: "Post an Issue via CI"
+
+on: 
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Title for the new issue'
+        required: true
+        type: string
+      body:
+        description: 'Body for the new issue'
+        required: true
+        type: string
+
+jobs:
+  post-issue:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # Needed to federate tokens.
+    steps:
+      - name: "Grab tmp token"
+        uses: octo-sts/action@6177b4481c00308b3839969c3eca88c96a91775f # v1.0.0
+        id: octo-sts
+        with:
+          scope: Aj-vrod/bicho
+          identity: dev
+
+      - name: "Post issue"
+        env:
+          GITHUB_TOKEN: ${{ steps.octo-sts.outputs.token }}
+        run: |
+          gh issue create --title ${{ inputs.title }} --body ${{ inputs.body }}
+
+
+

@@ -1,0 +1,6 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:Aj-vrod/bicho:ref:refs/heads/main
+
+permissions:
+  contents: read
+  issues: write
