@@ -2,7 +2,7 @@ issuer: https://token.actions.githubusercontent.com
 subject: repo:Aj-vrod/github-notifier:pull_request
 
 permissions:
-  contents: write
+  contents: read
   workflows: write
+  pull_requests: write
   actions: write
-  pull_requests: read
