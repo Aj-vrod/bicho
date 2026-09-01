@@ -5,3 +5,4 @@ permissions:
   contents: write
   workflows: write
   actions: write
+  pull-requests: read
